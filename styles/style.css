@@ -65,3 +65,11 @@ p {
         margin-left: 50px;
     }
 }
+
+@media (max-width:432px) {
+    
+    .card {
+        margin-left: 20px;
+    }
+}
+
