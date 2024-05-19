@@ -1,43 +1,69 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/mwaka.jpg" type="image/x-icon" />
+    <title>Kitty Food</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="shortcut icon" href="images/me.jpg" type="image/x-icon" />
   </head>
   <body>
-    <section class="card">
+    <div class="wrap">
       <header>
-        <h2>Mwakanemela Kayange</h2>
+        <div class="header-left">
+          <a href="index.html">
+            <img src="images/mwaka.jpg" alt="Mwakanemela Logo" />
+          </a>
+          <div class="divider hide-mobile"></div>
+          <a href="#" class="home hide-mobile">Home</a>
+        </div>
+
+        <nav>
+          <a href="#" class="menu-open hide-desktop">
+            <img src="images/menu.svg" alt="Close Menu" />
+          </a>
+          <ul>
+            <li class="hide-desktop">
+              <a href="" class="menu-close">
+                <img src="images/close.svg" alt="Close Menu" />
+              </a>
+            </li>
+            <li>
+              <a href="coming_soon.html" class="comming-soon">About Mi</a>
+            </li>
+            <li><a href="coming_soon.html" class="comming-soon">Skills</a></li>
+            <li>
+              <a href="coming_soon.html" class="comming-soon">Projects</a>
+            </li>
+            <li><a href="coming_soon.html" class="comming-soon">FAQ</a></li>
+          </ul>
+        </nav>
       </header>
-      <article>
-        <img
-          src="images/me.jpg"
-          alt="A picture of Mwakanemela - a man with the frontend skills"
-        />
-        <p>
-          Daeyang University - ICT Student<br />
-          Software Engineer<br />
-          Chitipa-Mulanje-Lilongwe<br />
-          Malawi<br />
-          I feel like I am an ICT Department<br />
-          <strong>Tel</strong>: 088-64-73-493<br />
-          <strong>Mail</strong>: kayangemwakanemela@gmail.com
+
+      <main>
+        <h1>Mwakanemela Kayange <span>PORTFOLIO</span></h1>
+        <p class="subhead">
+          ..for my love in coding(programming), I am a certified
+          <span>Software Engineer </span>From
+          <span>Daeyang University(Malawi)</span>.
         </p>
-      </article>
-      <footer>
-        <p>
-          I am all about code. Literally I announced that I love coding in front
-          of every being. You will see mi but not so often
-        </p>
-        <p>Learn how make can change your life. I have no hobby</p>
-        <p>
-          Pay attention to how you pay attention, Think about how you think,
-          learn how you learn.
-        </p>
-      </footer>
-    </section>
+        <a href="#" class="primary-cta"
+          >Download My CV, Reference Letter & Certificate</a
+        >
+      </main>
+
+      <div class="cat-container">
+        <div class="cat">
+          <img src="images/mwaka.jpg" alt="" />
+          <div class="inner-circle"></div>
+          <div class="outer-circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>- Made with love in coding(programming) - 2024</p>
+    </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
